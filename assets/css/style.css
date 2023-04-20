@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #333;
-    background-color: #97a7c9;
+    background-color: #fa01a7;
   }
   
   h1 {
@@ -14,7 +14,7 @@ body {
     width: 600px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #181a1d;
+    border: 1px solid #fefcff;
     border-radius: 5px;
     
   }
@@ -42,6 +42,6 @@ body {
     width: 120px;
     height: 160px;
     object-fit: cover;
-    border: 1px solid #19191a;
+    border: 1px solid #530750;
     border-radius: 5px;
   }
