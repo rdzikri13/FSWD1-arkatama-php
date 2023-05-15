@@ -2,6 +2,14 @@
 session_start();
 require_once 'koneksi.php';
 
+if(!isset($_SESSION['session_username'])){
+    header("location:login.php");
+    exit();
+}
+
+session_start();
+require_once 'koneksi.php';
+
 if(isset($_POST['update']))
 {
     $pengguna_id = $_POST['pengguna_id'];
