@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost','root','','dump-ta_magang-202304021340');
+$conn = mysqli_connect('localhost','root','','arkatama_store');
 if(isset($_POST["submit"])){
     $username = $_POST['USER'];
     $pw = $_POST['PW'];
@@ -12,7 +12,7 @@ if(isset($_POST["submit"])){
         $uname = $array['name'];
         $pass = $array['password'];
         $_SESSION['USER'] = $uname;
-        header("location: tampiluser.php");
+        header("location: read.php");
     }else{
         header("location: login.php");
     }
